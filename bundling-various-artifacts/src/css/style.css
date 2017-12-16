@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/fontawesome-webfont.woff') format('woff');
+    font-style: normal;
+}
+
+.hello{
+    backface-visibility: hidden;
+    color: red;
+    font-family: 'MyFont';
+}
