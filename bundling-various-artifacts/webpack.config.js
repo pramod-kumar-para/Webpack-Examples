@@ -24,7 +24,7 @@ module.exports = {
                     'file-loader'
                 ]
             },{
-                test: /\.(csv|tsv)$/ //csv data
+                test: /\.(csv|tsv)$/, //csv data
                 use: [
                     'csv-loader'
                 ]
